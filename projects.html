@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Karthika P</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Karthika P</a></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle3" class="theme-toggle" aria-pressed="false">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section">
+      <h2>Projects & Achievements</h2>
+      <p class="lead">Selected projects, with SIH achievement and a certificates gallery below.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Blockchain-Based Skill Credential System</h3>
+          <p class="meta">SIH — Shortlisted (College Level)</p>
+          <p>A blockchain platform for tamper-proof skill credentials and verification workflows.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>AI-based Skill Prediction System</h3>
+          <p class="meta">MERN</p>
+          <p>Analyzes user data and suggests skills/career pathways using ML models.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Digital Medicine Box</h3>
+          <p class="meta">MERN + AWS</p>
+          <p>Cloud-based medication reminders with notifications for patients and relatives.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Event Management System</h3>
+          <p class="meta">Django</p>
+          <p>Event creation, registration, and admin dashboards for organizers.</p>
+        </article>
+      </div>
+
+      <h3 style="margin-top:28px;">Certificates Gallery</h3>
+      <div class="certs-grid">
+        <!-- Add your certificate images here -->
+        <button class="cert-thumb" data-src="images/cert1.jpg" aria-label="Open certificate 1"><img src="images/cert1.jpg" alt="Certificate 1" /></button>
+        <button class="cert-thumb" data-src="images/cert2.jpg" aria-label="Open certificate 2"><img src="images/cert2.jpg" alt="Certificate 2" /></button>
+        <button class="cert-thumb" data-src="images/cert3.jpg" aria-label="Open certificate 3"><img src="images/cert3.jpg" alt="Certificate 3" /></button>
+        <!-- add more as needed -->
+      </div>
+    </section>
+
+    <!-- Certificate modal -->
+    <div id="certModal" class="modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true" aria-label="Certificate preview">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img id="certModalImg" src="" alt="Certificate preview" />
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Karthika P. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
