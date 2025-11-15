@@ -4,7 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects — Karthika P</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- FIXED: removed css/ -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
@@ -57,11 +59,20 @@
 
       <h3 style="margin-top:28px;">Certificates Gallery</h3>
       <div class="certs-grid">
-        <!-- Add your certificate images here -->
-        <button class="cert-thumb" data-src="images/cert1.jpg" aria-label="Open certificate 1"><img src="images/cert1.jpg" alt="Certificate 1" /></button>
-        <button class="cert-thumb" data-src="images/cert2.jpg" aria-label="Open certificate 2"><img src="images/cert2.jpg" alt="Certificate 2" /></button>
-        <button class="cert-thumb" data-src="images/cert3.jpg" aria-label="Open certificate 3"><img src="images/cert3.jpg" alt="Certificate 3" /></button>
-        <!-- add more as needed -->
+
+        <!-- FIXED paths - removed images/ -->
+        <button class="cert-thumb" data-src="cert1.jpg" aria-label="Open certificate 1">
+          <img src="cert1.jpg" alt="Certificate 1" />
+        </button>
+
+        <button class="cert-thumb" data-src="cert2.jpg" aria-label="Open certificate 2">
+          <img src="cert2.jpg" alt="Certificate 2" />
+        </button>
+
+        <button class="cert-thumb" data-src="cert3.jpg" aria-label="Open certificate 3">
+          <img src="cert3.jpg" alt="Certificate 3" />
+        </button>
+
       </div>
     </section>
 
@@ -81,6 +92,7 @@
     </div>
   </footer>
 
-  <script src="js/script.js" defer></script>
+  <!-- FIXED: removed js/ -->
+  <script src="script.js" defer></script>
 </body>
 </html>
