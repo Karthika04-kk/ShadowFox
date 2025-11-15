@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Karthika</title>
+  <title>Contact — Karthika</title>
 
   <!-- CSS (no folder name) -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- JS (no folder name needed) -->
+  <!-- JS (no folder name) -->
   <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="logo">Karthika</div>
     <nav>
       <ul>
@@ -24,12 +24,13 @@
     </nav>
   </header>
 
-  <section class="contact">
+  <section class="contact section">
     <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" rows="5" required></textarea>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
       <button type="submit" class="btn">Send Message</button>
     </form>
   </section>
